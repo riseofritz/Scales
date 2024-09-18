@@ -10,8 +10,7 @@ void draw() {
   background(0);
   z+=5;
   z-=(int)(Math.random()*3);
-  r+=15;
-  r-=(int)(Math.random()*5);
+  r+=20;
   for (int y=0; y<=1000; y+=80) {
     for (int x = -100000; x<=1000; x+=20) {
       fill(144, r, r);
@@ -20,7 +19,7 @@ void draw() {
   }
 
   for (int y=0; y<=10000; y+=80) {
-    for (int x=0; x<=1000; x+=20) {
+    for (int x=0; x<=10000; x+=20) {
       fill(68, r-15, r);
       inlot(x-z, y);
     }
