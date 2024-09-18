@@ -9,7 +9,6 @@ void setup() {
 void draw() {
   background(0);
   z+=5;
-  z-=(int)(Math.random()*3);
   r+=20;
   for (int y=0; y<=1000; y+=80) {
     for (int x = -100000; x<=1000; x+=20) {
